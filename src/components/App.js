@@ -13,9 +13,9 @@ export class App extends Component {
   };
 
   handleClick = option => {
-    this.setState(prevSrtate => {
+    this.setState(prevState => {
       return {
-        [option]: prevSrtate[option] + 1,
+        [option]: prevState[option] + 1,
       };
     });
   };
